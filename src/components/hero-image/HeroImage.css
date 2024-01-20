@@ -1,0 +1,52 @@
+/* src/components/HeroImage.css */
+.hero-image {
+  background-image: url("../assets/back.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust the height as needed */
+  display: flex;
+  /* Change to column to stack items vertically */
+  align-items: center;
+  justify-content: right;
+  color: #fff;
+  /* text-align: center; */
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #ffffff;
+  margin-left: 80px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logo-image {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 0px;
+}
+
+.logo-image > img {
+  margin: 100px 20px 0px 10px;
+  width: 100px;
+}
+
+.heading {
+  text-align: left;
+  margin-top: 90px;
+}

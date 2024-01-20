@@ -1,0 +1,74 @@
+/* src/components/ConsultationForm.css */
+.consultation-form {
+  background-color: #1a1a1a; /* Dark background color */
+  color: #ffffff; /* Text color */
+  padding: 20px 40px;
+  max-width: 400px;
+  /* margin: 0 auto; */
+  /* height: 100vh; */
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 400px;
+  /* height: 350px; */
+
+  padding: 8px;
+  /* margin-bottom: 10px; */
+  border: 1px solid #ffffff; /* White border */
+  border-radius: 5px;
+  background-color: #333;
+  color: #ffffff;
+}
+
+.checkbox-field {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.checkbox-field > input {
+  width: 20px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.available-doctor {
+  margin-top: 0px;
+  padding: 0px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.not-found {
+  font-size: 12px;
+}
